@@ -1,5 +1,5 @@
-SELECT * FROM crime_scene_report WHERE type = 'murder' AND city = 'SQL City';
-SELECT * FROM person WHERE address_street_name = "Northwestern Dr" OR address_street_name = "Franklin Ave";
+//Murder took place on Jan 15 in SQL City
+SELECT * FROM crime_scene_report WHERE type = 'murder' AND city = 'SQL City' AND date = 20180115;
 
 //Witness 1:
 SELECT * FROM person WHERE name LIKE "%Annabel%" AND address_street_name = "Franklin Ave";
